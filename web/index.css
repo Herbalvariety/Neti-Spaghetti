@@ -1,0 +1,25 @@
+/*defines the following header*/
+header {
+     height: 80px;
+     width: 100%;
+     top: 0;
+     left: 0;
+     position: fixed;
+     z-index: 10;
+     color: #FFFFFF;
+     box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+     border-radius: 5px;
+     background: #b30000;
+}
+
+/*defines the logo on the left top in the header
+This will be replaced by the logo image*/
+#logo_home {
+     position: fixed;
+     left: 5px;
+}
+
+#login {
+     position: fixed;
+     right: 5px;
+}
