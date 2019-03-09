@@ -1,0 +1,53 @@
+/*defines the following header*/
+header {
+     height: 80px;
+     width: 100%;
+     top: 0;
+     left: 0;
+     position: fixed;
+     z-index: 10;
+     color: #FFFFFF;
+     box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+     /*border-radius: 5px; param for rounded div*/
+     background: #b30000;
+}
+
+/*defines the logo on the left top in the header
+This will be replaced by the logo image*/
+#logo_home {
+     position: fixed;
+     left: 5px;
+}
+
+#login {
+     position: fixed;
+     right: 5px;
+}
+
+/* serves to control the sign up link initially.
+This should somehow be unique to it. probably. */
+
+a:link {
+     color: white;
+     text-decoration: none;
+     text-shadow: 0 5px 60px rgba(0,0,0,0.3); 
+}
+
+a:hover {
+
+     text-shadow: 0 5px 0 rgba(0,0,0,0.3); 
+     /*box-shadow: 0 5px 1px rgba(0,0,0,0.3);*/
+}
+
+#signin_bg {
+     background: #b30000;
+     width: 300px;
+     height: 300px;
+     margin: 350px auto;
+     border-radius: 5px;
+     box-shadow: 10px 10px 5px rgba(0,0,0,0.3); 
+}
+
+#signin_form {
+
+}
